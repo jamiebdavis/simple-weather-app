@@ -1,5 +1,5 @@
 body {
-  background-image: url("default.jpg");
+  background-image: url("./images/default.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -13,6 +13,7 @@ body {
   padding: 50px;
   border-radius: 10px;
   position: absolute;
+  visibility: hidden;
 }
 #weatherContainer h1 {
   margin: 5px;
